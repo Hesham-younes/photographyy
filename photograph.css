@@ -1,0 +1,172 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p {
+    font-family: 'releway', serif;
+    font-size: 140%;
+    text-align: justify;
+    font-weight: 300;
+    margin: 20px;
+}
+
+img {
+    text-align: center;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-image: url(../photograph/photosssssss/xxxxxxxxx.jpg);
+    background-size: cover;
+    display: table;
+    top: auto;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 300%;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding: 2% 0px 0px 0px;
+    text-shadow: 0px 0px 250px #000;
+}
+
+.content p {
+    color: white;
+}
+
+.inner {
+    max-width: 600px;
+    margin: auto;
+    font-size: 170%;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+nav {
+    float: left;
+    padding: 5% 0;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    float: left;
+}
+
+nav ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+}
+
+nav ul li {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul,
+nav:active ul {
+    display: none;
+    padding: 8px 0;
+    left: 30px;
+    top: 60px;
+    width: 20%;
+    z-index: 100;
+}
+
+nav li {
+    width: 100%;
+    padding: 8px 0 10px 0;
+    margin: 0;
+}
+
+nav:hover ul {
+    display: block;
+    position: absolute;
+}
+
+#menu {
+    width: 30px;
+    height: 26px;
+    background: url(../img/burgerIcon.png)center;
+    display: inline-block;
+    margin: 30px;
+}
+
+.left-col {
+    width: 60%;
+    float: left;
+    margin: 4% 0;
+}
+
+.sidebar {
+    width: 26%;
+    float: left;
+    margin: 4%;
+}
+
+.one-third-port {
+    width: 29.333333%;
+    padding: 2%;
+    float: left;
+}
+
+.one-third-port img:hover {
+    opacity: .6;
+}
+
+.content {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.content a {
+    color: black;
+}
+
+.clearfix {
+    clear: both;
+    height: 3%;
+}
+
+footer.second {
+    background-color: black;
+}
+
+footer.second {
+    color: #fff;
+    text-align: center;
+}
